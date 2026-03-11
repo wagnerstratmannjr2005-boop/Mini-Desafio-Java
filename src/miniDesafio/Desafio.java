@@ -48,6 +48,7 @@ public class Desafio {
                 if(usuario.equals("admin") && senha.equals("1234")) {
 
                     JOptionPane.showMessageDialog(null,"Acesso Permitido");
+                    System.exit(0);
 
                 } else {
 
